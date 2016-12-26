@@ -11,7 +11,7 @@ import {APP_ROUTES} from "./routes";
 import {reducer} from "./reducers";
 import {schema} from "./db";
 import {AppComponent} from "./app.component";
-import {PlexListComponent} from "./plex-list/plex-list.component";
+import {PlexListComponent} from "./components/plex-list/plex-list.component";
 import {PlexComponent} from "./components/plex/plex.component";
 import {PlexEffects} from "./effects/plex";
 import {PlexService} from "./services/plex.service";
