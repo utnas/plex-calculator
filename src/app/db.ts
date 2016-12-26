@@ -6,7 +6,7 @@ import {DBSchema} from '@ngrx/db';
  */
 export const schema: DBSchema = {
   version: 1,
-  name: 'plex-calculator',
+  name: 'plex_app',
   stores: {
     plex: {
       autoIncrement: true,

@@ -7,7 +7,7 @@ export interface State {
 }
 
 const reducers = {
-  
+  plex: plex.reducer
 };
 
 export function reducer(state: State, action: Actions) {
