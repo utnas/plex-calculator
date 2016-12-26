@@ -35,7 +35,7 @@ import {PlexService} from "./services/plex.service";
 
     StoreDevtoolsModule.instrumentOnlyWithExtension(),
 
-    EffectsModule.run(PlexEffects),
+    //EffectsModule.run(PlexEffects),
 
     DBModule.provideDB(schema),
   ],
